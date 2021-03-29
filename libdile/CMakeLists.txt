@@ -1,0 +1,3 @@
+add_library(dile_vdec_direct SHARED src/dile_vdec_direct.c)
+target_include_directories(dile_vdec_direct PUBLIC include)
+set_target_properties(dile_vdec_direct PROPERTIES SOVERSION 1)
