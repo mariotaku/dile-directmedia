@@ -3,3 +3,4 @@ project(dile-directmedia C)
 
 add_subdirectory(libdile)
 add_subdirectory(libhelpers)
+add_subdirectory(libacbapi)
